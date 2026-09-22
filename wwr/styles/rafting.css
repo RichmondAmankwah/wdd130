@@ -77,7 +77,6 @@ article {
     width: 30%;
     height: auto;
     box-sizing: border-box;
-    box-shadow: inset;
     background-color: beige;
     color: black;
     padding: 0px;
@@ -112,5 +111,4 @@ footer {
 
 .socialmedia a {
     margin-top: 1px;
-    align-content: right;
 }
