@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-header {
+.motion {
     background-color: var(--secondary-color);
     color: var(--slow-color)
 }
@@ -22,7 +22,7 @@ body {
     color: var(--body-font);
 }
 
-header,
+.motion,
 main,
 footer {
     width: 840px;
@@ -108,8 +108,113 @@ h2 {
 
 footer {
     background-color: beige;
+    margin-top: 20px;
 }
 
 .socialmedia a {
     margin-top: 1px;
+}
+
+.motion {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.motion nav {
+    grid-column: 2/3;
+    grid-row: 1/1;
+    font-style: oblique;
+}
+
+.motion nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.motion img {
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
+
+.head img {
+    width: 100px;
+    height: auto;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1;
+}
+
+.head figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+footer p {
+    grid-column: 1/2;
+}
+
+footer nav {
+    grid-column: 2/3;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.motion nav {
+    text-decoration-style: wavy;
+}
+
+.head {
+    margin-top: 5px;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.solo {
+    grid-column: 1/2;
+}
+
+.squad {
+    grid-column: 2/3;
+}
+
+.lamar {
+    grid-column: 3/4;
+}
+
+.squad img {
+    width: 200px;
+    height: auto;
+    margin-top: 15px;
+}
+
+figcaption {
+    background-color: antiquewhite;
+    color: black;
+    font-style: italic;
+}
+
+figure img {
+    display: block;
+}
+
+footer p {
+    text-align: center;
 }
