@@ -14,7 +14,10 @@
 
 .motion {
     background-color: var(--secondary-color);
-    color: var(--slow-color)
+    color: var(--slow-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
 }
 
 body {
@@ -45,6 +48,7 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    margin-top: 1px;
 }
 
 .hero {
@@ -106,28 +110,9 @@ h2 {
     text-align: center;
 }
 
-footer {
-    background-color: beige;
-    margin-top: 20px;
-}
-
-.socialmedia a {
-    margin-top: 1px;
-}
-
-.motion {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-}
-
 .motion nav {
     grid-column: 2/3;
-    grid-row: 1/1;
     font-style: oblique;
-}
-
-.motion nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -147,6 +132,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1;
+    margin-top: 5px;
 }
 
 .head figure {
@@ -159,27 +145,23 @@ footer {
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    background-color: beige;
+    margin-top: 20px;
 }
 
 footer p {
     grid-column: 1/2;
-}
-
-footer nav {
-    grid-column: 2/3;
+    text-align: center;
 }
 
 footer nav {
     display: flex;
+    grid-column: 2/3;
     justify-content: space-around;
 }
 
 .motion nav {
     text-decoration-style: wavy;
-}
-
-.head {
-    margin-top: 5px;
 }
 
 aside {
@@ -213,8 +195,4 @@ figcaption {
 
 figure img {
     display: block;
-}
-
-footer p {
-    text-align: center;
 }
