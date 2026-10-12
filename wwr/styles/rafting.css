@@ -194,25 +194,25 @@ figure img {
     display: block;
 }
 
-main article {
+.werd {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-main ul {
+.werd ul {
     grid-row: 1/2;
     grid-column: 1/3;
     text-align: center;
     margin-bottom: 5px;
 }
 
-main map {
+.werd map {
     grid-row: 2/3;
     grid-column: 1/2;
 }
 
-main form {
+.werd form {
     grid-row: 2/3;
     grid-column: 2/3;
     display: flex;
@@ -221,14 +221,14 @@ main form {
     margin-left: 5px;
 }
 
-main section {
+.werd section {
     grid-row: 3/4;
     grid-column: 1/3;
     align-items: center;
     margin-top: 40px;
 }
 
-main div {
+.werd div {
     padding: 5px;
     margin-left: 5px;
 }
