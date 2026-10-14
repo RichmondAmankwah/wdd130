@@ -289,7 +289,7 @@ legend {
     font-weight: bold;
     color: black;
     width: 100%;
-    background-color: grey;
+    background-color: white;
     background-size: 200px;
 
 }
@@ -337,8 +337,8 @@ legend {
     background-color: white;
 }
 
-.contact nav {
-    background-color: grey;
+.contact-me {
+    background-color: white;
     font-size: larger;
     font-weight: 300;
 }
