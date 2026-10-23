@@ -412,3 +412,13 @@ table {
 .sub:active {
     transform: scale(0.95);
 }
+
+@media (max-width:600px){
+    .motion,
+    aside,
+    .head,
+    .heart{
+        grid-template-columns: ;
+    }
+
+}
