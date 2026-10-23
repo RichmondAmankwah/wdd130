@@ -28,8 +28,7 @@ body {
 .motion,
 main,
 footer {
-    width: 100%;
-    max-width: 840px;
+    width: min(100%, 840px);
     margin: 0 auto;
 }
 
@@ -92,7 +91,7 @@ article {
 .hero article img {
     float: right;
     margin-top: 0px;
-    width: 100px;
+    max-width: 100px;
     height: auto;
     margin-left: 15px;
 
@@ -126,7 +125,7 @@ h2 {
 }
 
 .head img {
-    width: 100px;
+    max-width: 100px;
     height: auto;
 }
 
@@ -179,7 +178,7 @@ aside {
 }
 
 .squad img {
-    width: 200px;
+    max-width: 200px;
     height: auto;
     margin-top: 15px;
     align-content: center;
@@ -297,7 +296,7 @@ legend {
 
 .purpose img,
 .offering img {
-    width: 300px;
+    max-width: 300px;
     height: auto;
 
 }
@@ -401,7 +400,7 @@ table {
 }
 
 .nte img {
-    width: 250px;
+   max-width: 250px;
 
 }
 
